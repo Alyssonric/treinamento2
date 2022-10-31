@@ -1,0 +1,97 @@
+.about-box {
+    text-align: center;
+    border: 1px solid #e6e6e6;
+    height: 280px;
+    position: relative;
+    background: var(--main-background);
+    padding: 50px 20px;
+}
+
+/* cores da logo 3ES abi= about box icon */
+.abi-1 {
+    background: var(--blue-3es)
+}
+
+.abi-2 {
+    background: var(--green-3es);
+}
+
+.abi-3 {
+    background: var(--red-3es)
+}
+
+.about-icon {
+    position: absolute;
+    top: -36px;
+    left: calc(50% - 36px);
+    border-radius: 50%;
+    border: 6px solid var(--main-background);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 72px;
+    height: 72px;
+}
+
+.about-icon i {
+    color: #fff;
+    font-size: 30px;
+    line-height: 0;
+}
+
+.icon-box .icon {
+    float: left;
+    background: #fff;
+    width: 64px;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 50%;
+
+}
+
+.icon-box .icon i {
+    font-size: 24px;
+    line-height: 0;
+}
+
+.icon-box .icon-1 i {
+    color: var(--blue-3es);
+}
+
+.icon-box .icon-1 {
+    border: 2px solid var(--blue-3es);
+}
+
+.icon-box .icon-2 i {
+    color: var(--green-3es);
+}
+
+.icon-box .icon-2 {
+    border: 2px solid var(--green-3es);
+}
+
+.icon-box .icon-3 i {
+    color: var(--red-3es);
+}
+
+.icon-box .icon-3 {
+    border: 2px solid var(--red-3es);
+}
+
+.remove-border {
+    border: none;
+}
+
+.icon-box p {
+    margin-left: 80px;
+}
+
+.icon-box h3 {
+    margin-left: 80px;
+}
