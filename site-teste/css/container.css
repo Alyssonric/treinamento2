@@ -58,20 +58,24 @@ body {
   padding-left: 20px;
   padding-right: 20px;
   padding-bottom: 20px;
+  
 }
 
 #c1 {
   height: 300px;
+  border-radius: 180px;
 }
 
 
 #c2 {
   height: 300px;
+  border-radius: 180px;
 }
 
 
 #c3 {
   height: 300px;
+  border-radius: 180px;
 }
 
 .fis {
@@ -90,10 +94,6 @@ body {
   padding-left: 20px;
   padding-right: 20px;
   padding-bottom: 20px;
-}
-#text {
-  align-self: flex-start;
-  margin-left: -100x;
 }
 
 .footpri {
