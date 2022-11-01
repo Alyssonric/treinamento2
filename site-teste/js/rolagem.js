@@ -1,9 +1,17 @@
-$(function () {
-    $(window).on('scroll', function () {
-        if ( $(window).scrollTop() > 10 ) {
-            $('#nav').addClass('active');
-        } else {
-            $('#nav').removeClass('active');
-        }
-    });
+'use strict';
+
+var onTop = false;
+
+$(window).scroll(function () {
+    let scrollPosition = $(window).scrollTop();
+
+    if (scrollPosition < 5 && !onTop) {
+        onTop = true;
+        $('.navbar').addClass('onTop');
+    }
+
+    if (scrollPosition > 5 && onTop) {
+        onTop = false;
+        $('.navbar').removeClass('onTop');
+    }
 });

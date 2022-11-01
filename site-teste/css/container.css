@@ -1,36 +1,25 @@
-#nav {
+.navbar {
   transition: all 0.4s;
 }
 
-#nav li {
+.navbar li {
   font-size: 23px;
   padding: 0 0 0 48px;
 }
 
-#nav {
-  color: powderblue;
-}
 
 .logo {
   height: 100px;
 }
-
-#nav.active {
-  background: var(--main-background);
-  box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
+.navbar {
+  height: 55px;
+  background-color: rgb(255, 255, 255);
+  transition: background-color .4s ease-in-out;
+  position: fixed;
 }
 
-#nav.active.nav-link {
-  color:black;
+.onTop {
+  background-color: transparent;
 }
 
-#nav.active .nav-link:hover,
-#nav.active .nav-link:focus {
-  color: black;
-  text-decoration: none;
-}
-
-#nav.active {
-  color: black;
-}
 
