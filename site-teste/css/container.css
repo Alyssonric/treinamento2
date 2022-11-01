@@ -1,25 +1,107 @@
-.navbar {
-  transition: all 0.4s;
+body,
+html {
+    overflow-x: hidden !important;
 }
 
+header {
+  margin-bottom: 20px;
+}
+
+body {
+  background-color: whitesmoke;
+}
+
+
+#font {
+  font-size: 25px;
+}
 .navbar li {
-  font-size: 23px;
+  font-size: 24px;
   padding: 0 0 0 48px;
 }
 
+#menu a:focus {
+  color: brown;
+}
 
 .logo {
   height: 100px;
 }
+
 .navbar {
-  height: 55px;
-  background-color: rgb(255, 255, 255);
-  transition: background-color .4s ease-in-out;
-  position: fixed;
+  background-color: white;
+  font-weight: bolder;
+}
+/*.navbar.active {
+  background: var(--main-background);
+  box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.9);
 }
 
-.onTop {
-  background-color: transparent;
+.navbar.active .nav-link {
+  color:black;
+}
+
+.navbar.active .nav-link:hover,
+.navbar.active .nav-link:focus {
+  color: black;
+  text-decoration: none;
+}
+
+.navbar.active {
+  color: black;
+}
+*/
+
+.solu {
+  background-color: white;
+  margin-top: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+
+#c1 {
+  height: 300px;
+}
+
+
+#c2 {
+  height: 300px;
+}
+
+
+#c3 {
+  height: 300px;
+}
+
+.fis {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+
+.fi {
+  height: 300x;
+  width: 400px;
+}
+
+.ges {
+  background-color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+#text {
+  align-self: flex-start;
+  margin-left: -100x;
+}
+
+.footpri {
+  margin-bottom: 0px;
+}
+
+#copy {
+  margin-top: 0px;
 }
 
 

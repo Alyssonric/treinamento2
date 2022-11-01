@@ -1,17 +1,9 @@
-'use strict';
-
-var onTop = false;
-
-$(window).scroll(function () {
-    let scrollPosition = $(window).scrollTop();
-
-    if (scrollPosition < 10 && !onTop) {
-        onTop = true;
-        $('.navbar').addClass('onTop');
-    }
-
-    if (scrollPosition > 10 && onTop) {
-        onTop = false;
-        $('.navbar').removeClass('onTop');
-    }
+$(function () {
+    $(window).on('scroll', function () {
+        if ( $(window).scrollTop() > 10 ) {
+            $('.navbar').addClass('active');
+        } else {
+            $('.navbar').removeClass('active');
+        }
+    });
 });

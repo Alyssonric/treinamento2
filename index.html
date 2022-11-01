@@ -11,17 +11,19 @@
     <link rel="stylesheet" href="site-teste/css/container.css">
     <link rel="stylesheet" href="site-teste/js/rolagem.js">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="site-teste/js/jquery.js">
 
 
     <title>Fiscal Público</title>
 </head>
 
 <body>
+
     <header>
-        <nav id="nav" class="navbar onTop navbar-expand-lg fixed-top">
+        <nav id="menu" class="navbar navbar-expand-lg fixed-top">
             <div class="container-fluid">
                 <img class="logo" src="site-teste/img/logo-teste.png" alt="logo">
-                <a class="navbar-brand" href="#">Fiscal Público</a>
+                <a id="font" class="navbar-brand" href="#">Fiscal Público</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -47,41 +49,142 @@
                 </div>
             </div>
         </nav>
-
+        <img class="w-100" src="site-teste/img/teste.jpg" alt="img">
     </header>
 
-    <img class="w-100" src="site-teste/img/teste.jpg" alt="">
 
-    <footer>
-        <div style="font-style: oblique; text-align: center; font-size: 25px;">
-            <p>Contato</p>
+    <div class="solu">
+        <div class="container-fluid  text-center">
+            <h1>Soluções</h1>
         </div>
-        <div class="row ms-auto me-auto ">
-            <div class="col-4">
-                <div class="d-inline ">
-                    <p>
-                        coesma@coesma.com.br
-                    </p>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+                <div class="card h-100">
+                    <img  id="c1"  src="site-teste/img/solu1.jfif" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">SOLUÇÃO 1</h5>
+                        <p class="card-text">FAZ ISSO,ISSO E ISSO
+                        </p>
+                    </div>
                 </div>
             </div>
-            <div class="col-4">
-                <div class="d-inline ">
-                    <p>
-                        (14) 3454-5995
-                    </p>
+            <div class="col">
+                <div  class="card h-100">
+                    <img id="c2" src="site-teste/img/solu2.jfif" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">SOLUÇÃO 2</h5>
+                        <p class="card-text">ESPECIALISTA EM TERRENO BALDIO
+                        </p>
+                    </div>
                 </div>
             </div>
+            <div class="col">
+                <div  class="card h-100">
+                    <img id="c3" src="site-teste/img/solu3.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                            additional content. This card has even longer content than the first to show that equal
+                            height
+                            action.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="fis container-fluid">
+        <div class="justify-content-start ms-4">
+            <h1>Fiscal</h1>
+        </div>
+        <div class="row">
+            <div class="col-4 ">
+                <img class="fi img-fluid" src="site-teste/img/fiscal.jfif" alt="">
+
+            </div>
+            <div id="text" class="col-8">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum aut deserunt, mollitia qui
+                    libero tenetur enim explicabo quo molestias? At quisquam minus et aperiam veniam laborum
+                    exercitationem consequatur eos. Numquam. Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Porro velit, corporis ullam atque architecto inventore consequatur recusandae corrupti esse
+                    doloribus minima labore. Maiores, incidunt corrupti. Fuga laudantium ratione quo officiis!</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="ges container-fluid">
+        <div class="text-end me-4">
+            <h1>Gestor</h1>
+        </div>
+        <div class="row">
+            <div class="col-8">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis sed facilis placeat, fugiat autem
+                    cumque ipsam reprehenderit animi dignissimos, aliquam ducimus sit accusamus labore nam culpa
+                    consequuntur magni voluptatibus voluptates. Lorem ipsum dolor sit, amet consectetur adipisicing
+                    elit. Possimus esse eos quidem, corrupti quia vitae quibusdam nisi suscipit amet cupiditate non. Ab
+                    atque excepturi id error commodi. Natus, iusto quod.</p>
+            </div>
             <div class="col-4">
-                <div class="d-inline ">
-                    <p>
-                        R. Egídio Elías Miguel, 136 - Aparecida Nasser, Marília - SP, 17524-450
-                    </p>
+                <img class="img-fluid" src="site-teste/img/gestor.webp" alt="gestor">
+            </div>
+
+        </div>
+    </div>
+
+
+    <footer class="mt-5">
+        <div class="footpri">
+            <div class="my-auto" style="font-style: oblique; text-align: center; font-size: 30px;">
+                <p>Contato</p>
+            </div>
+            <div id="foot" class="row mx-20px me-20px">
+                <div class="col-4 text-center">
+                    <div class="d-inline">
+                        <p>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                                class="bi bi-envelope-fill" viewBox="0 0 16 16">
+                                <path
+                                    d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z" />
+                            </svg>
+                        </p>
+                        <p>
+                            coesma@coesma.com.br
+                        </p>
+                    </div>
+                </div>
+                <div class="col-4 text-center">
+                    <div class="d-inline ">
+                        <p>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-telephone-fill" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
+                            </svg>
+                        </p>
+                        <p>
+                            (14) 3454-5995
+                        </p>
+                    </div>
+                </div>
+                <div class="col-4 text-center">
+                    <div class="d-inline ">
+                        <p>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                                <path
+                                    d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" />
+                            </svg>
+                        </p>
+                        <p>
+                            R. Egídio Elías Miguel, 136 - Aparecida Nasser, Marília - SP, 17524-450
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
 
 
-        <div class="text-center p-4" style="background-color:rgb(199, 243, 156);">
+        <div id="copy" class="text-center p-4" style="background-color:rgb(199, 243, 156);">
             © 2022 Copyright: Fiscal Público
             <a class="text-reset fw-bold" href="https://www.coesma.com.br/">www.coesma.com.br</a>
         </div>
