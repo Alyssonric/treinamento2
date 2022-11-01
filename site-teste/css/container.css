@@ -1,4 +1,9 @@
 #nav li {
   font-size: 23px;
   padding: 0 0 0 48px;
+  overflow-y: ;
+}
+
+#nav {
+  color: powderblue;
 }
