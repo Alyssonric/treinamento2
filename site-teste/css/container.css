@@ -46,7 +46,44 @@ body {
 
 #bloc1 {
   padding-bottom: 100px;
-  
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  transition: all 0.5s;
+    cursor: pointer;
+}
+
+#bloc1:hover {
+  -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+  filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+}
+
+#card1 {
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+#card1:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+#card2 {
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+#card2:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+#card3 {
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+#card3:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 
@@ -59,6 +96,14 @@ body {
 
 #bloc2 {
   padding-bottom: 10px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+#bloc2:hover {
+  -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+  filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
 }
 
 #c1 {
@@ -89,8 +134,15 @@ body {
 
 #bloc3 {
   padding-bottom: 10px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  transition: all 0.5s;
+  cursor: pointer;
 }
 
+#bloc3:hover {
+  -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+  filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+}
 
 
 .mod {
@@ -102,6 +154,14 @@ body {
 
 #bloc4 {
   padding-bottom: 10px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+#bloc4:hover {
+  -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+  filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
 }
 
 .fi {
@@ -116,6 +176,7 @@ body {
 #contato {
   padding-bottom: 80px;
   margin-top: 100px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 #copy {
