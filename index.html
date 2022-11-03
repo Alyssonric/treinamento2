@@ -9,9 +9,7 @@
     <link rel="stylesheet" href="site-teste/js/bootstrap.min.js">
     <link rel="stylesheet" href="site-teste/js/bootstrap.bundle.min.js">
     <link rel="stylesheet" href="site-teste/css/container.css">
-    <link rel="stylesheet" href="site-teste/js/rolagem.js">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-    <link rel="stylesheet" href="site-teste/js/jquery.js">
+
 
 
     <title>Fiscal Público</title>
@@ -31,19 +29,19 @@
                 <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Soluções</a>
+                            <a class="nav-link active" aria-current="page" href="#solutions">Soluções</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Fiscal</a>
+                            <a class="nav-link active" aria-current="page" href="#fiscal">Fiscal</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Gestor</a>
+                            <a class="nav-link active" aria-current="page" href="#gestor">Gestor</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Módulo</a>
+                            <a class="nav-link active" aria-current="page" href="#modulos">Módulos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Contato</a>
+                            <a class="nav-link active" aria-current="page" href="#contato">Contato</a>
                         </li>
                     </ul>
                 </div>
@@ -53,48 +51,50 @@
     </header>
 
 
-    <div class="solu">
-        <div class="container-fluid  text-center">
+    <div id="solutions" class="solu">
+        <div id="bloc1" class="container-fluid  text-center">
             <h1>Soluções</h1>
-        </div>
-        <div class="row row-cols-1 row-cols-md-3 g-4">
-            <div class="col">
-                <div class="card h-100">
-                    <img id="c1" src="site-teste/img/solu1.jfif" class="rounded-circle" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">SOLUÇÃO 1</h5>
-                        <p class="card-text">FAZ ISSO,ISSO E ISSO
-                        </p>
+        </div >
+        <div class="container">
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                    <div class=" h-100 text-center">
+                        <img id="c1" src="site-teste/img/solu1.jfif" class="rounded-circle" alt="...">
+                        <div class="card-body  mt-3">
+                            <h5 class="card-title">SOLUÇÃO 1</h5>
+                            <p class="card-text">FAZ ISSO,ISSO E ISSO
+                            </p>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col">
-                <div class="card h-100">
-                    <img id="c2" src="site-teste/img/solu2.jfif"  class="rounded-circle" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">SOLUÇÃO 2</h5>
-                        <p class="card-text">ESPECIALISTA EM TERRENO BALDIO
-                        </p>
+                <div class="col">
+                    <div class=" h-100 text-center">
+                        <img id="c2" src="site-teste/img/solu2.jfif" class="rounded-circle" alt="...">
+                        <div class="card-body  mt-3">
+                            <h5 class="card-title">SOLUÇÃO 2</h5>
+                            <p class="card-text">ESPECIALISTA EM TERRENO BALDIO
+                            </p>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col">
-                <div class="card h-100">
-                    <img id="c3" src="site-teste/img/solu3.png"  class="rounded-circle" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                            additional content. This card has even longer content than the first to show that equal
-                            height
-                            action.</p>
+                <div class="col">
+                    <div class=" h-100 text-center">
+                        <img id="c3" src="site-teste/img/solu3.png" class="rounded-circle" alt="...">
+                        <div class="card-body mt-3">
+                            <h5 class="card-title">title</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This card has even longer content than the first to show that equal
+                                height
+                                action.</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="fis container-fluid">
-        <div class="justify-content-start ms-4">
+    <div id="fiscal" class="fis container-fluid">
+        <div id="bloc2" class="justify-content-start ms-4">
             <h1>Fiscal</h1>
         </div>
         <div class="row">
@@ -112,8 +112,8 @@
         </div>
     </div>
 
-    <div class="ges container-fluid">
-        <div class="text-end me-4">
+    <div id="gestor" class="ges container-fluid">
+        <div id="bloc3" class="text-end me-4">
             <h1>Gestor</h1>
         </div>
         <div class="row">
@@ -131,28 +131,42 @@
         </div>
     </div>
 
-    <div class="mod">
-        <div class="container-fluid text-center">
-            <h1>Módulo</h1>
+    <div id="modulos" class="mod">
+        <div id="bloc4" class="container-fluid text-center">
+            <h1>Módulos</h1>
         </div>
-        <div class="row">
-            <div class="col-3"></div>
-            <div class="col-3"></div>
-            <div class="col-3"></div>
-            <div class="col-3"></div>
+        <div class="row pt-5">
+            <div class="col-3 text-center">
+                <h1>Ataque</h1>
+                <img class="img-fluid mt-3" src="site-teste/img/mod1.webp" alt="">
+            </div>
+            <div class="col-3 text-center">
+                <h1>Defesa</h1>
+                <img class="img-fluid mt-3" src="site-teste/img/mod2.webp" alt="">
+            </div>
+            <div class="col-3 text-center">
+                <h1>Ataque Face Baixa</h1>
+                <img class="img-fluid mt-3" src="site-teste/img/mod3.webp" alt="">
+            </div>
+            <div class="col-3 text-center">
+                <h1>Exodia</h1>
+                <img class="img-fluid mt-3" src="site-teste/img/mod4.jfif" alt="">
+            </div>
         </div>
     </div>
 
+
+
     <footer class="mt-5">
-        <div class="footpri">
-            <div class="my-auto" style="font-style: oblique; text-align: center; font-size: 30px;">
+        <div id="contato" class="footpri">
+            <div id="contato" class="my-auto border-top border-secondary border-1" style="font-style: oblique; text-align: center; font-size: 30px;">
                 <p>Contato</p>
             </div>
             <div id="foot" class="row mx-20px me-20px">
                 <div class="col-4 text-center">
                     <div class="d-inline">
                         <p>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor"
                                 class="bi bi-envelope-fill" viewBox="0 0 16 16">
                                 <path
                                     d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z" />
@@ -166,7 +180,7 @@
                 <div class="col-4 text-center">
                     <div class="d-inline ">
                         <p>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor"
                                 class="bi bi-telephone-fill" viewBox="0 0 16 16">
                                 <path fill-rule="evenodd"
                                     d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
@@ -180,7 +194,7 @@
                 <div class="col-4 text-center">
                     <div class="d-inline ">
                         <p>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor"
                                 class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
                                 <path
                                     d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" />
