@@ -6,10 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="site-teste/css/bootstrap.min.css">
-    <link rel="stylesheet" href="site-teste/js/bootstrap.min.js">
-    <link rel="stylesheet" href="site-teste/js/bootstrap.bundle.min.js">
     <link rel="stylesheet" href="site-teste/css/container.css">
-
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+        integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="site-teste/js/bootstrap.bundle.min.js">
+    <link rel="stylesheet" href="site-teste/js/bootstrap.min.js">
+    <script> scr = "site-teste/js/scoll.js"</script>
 
 
     <title>Fiscal Público</title>
@@ -17,11 +19,11 @@
 
 <body>
 
-    <header>
+    <header id="top">
         <nav id="menu" class="navbar navbar-expand-lg fixed-top">
             <div class="container-fluid">
                 <img class="logo" src="site-teste/img/logo-teste.png" alt="logo">
-                <a id="font" class="navbar-brand" href="#">Fiscal Público</a>
+                <a id="font" class="navbar-brand" href="#top">Fiscal Público</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -47,14 +49,19 @@
                 </div>
             </div>
         </nav>
-        <img class="w-100" src="site-teste/img/teste.jpg" alt="img">
-    </header>
+        <section id="container-img">
+            <div class="position-absolute top-50 start-50 translate-middle">
+                <h1 id="tit">Serviços para Fiscalizações</h1>
+                <h2 class="text-center" id="tit2">Softwares Especializados</h2>
+            </div>
+        </section>
 
+    </header>
 
     <div id="solutions" class="solu">
         <div id="bloc1" class="container-fluid  text-center">
             <h1>Soluções</h1>
-        </div >
+        </div>
         <div class="container">
             <div class="row row-cols-1 row-cols-md-3 g-4">
                 <div class="col">
@@ -217,7 +224,17 @@
 
     </footer>
 
-
+    <script>
+        $(function () {
+            $(window).on('scroll', function () {
+                if ($(window).scrollTop() > 30) {
+                    $('#menu').addClass('active');
+                } else {
+                    $('#menu').removeClass('active');
+                }
+            });
+        });
+    </script>
 </body>
 
 </html>

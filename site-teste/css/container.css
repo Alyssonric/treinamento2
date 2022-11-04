@@ -11,18 +11,50 @@ body {
   background-color: whitesmoke;
 }
 
-.navbar {
-  background-color: white;
+section {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  background: url(teste.jpg);
+  background-size: cover;
+}
+
+#tit {
   font-weight: bolder;
+  font-size: 48px;
+  color: rgb(0, 0, 0);
+  box-shadow: 10px 5px 5px black;
+
+}
+
+#tit2 {
+  font-weight: bolder;
+  color: black;
+}
+
+
+#menu.active {
+  background-color: white;
+  font-size: 38px;
+  color: black;
+  font-weight: bolder;
+  transition: all 0.5s;
 }
 
 #font {
-  font-size: 25px;
+  font-size: 24px;
+}
+
+.navbar-fixed-top {
+  position: fixed !important;
+  top: 0;
+  width: 100%;
 }
 
 .navbar li {
   font-size: 24px;
   padding: 0 0 0 48px;
+  color: white;
 }
 
 #menu a:focus {
@@ -48,13 +80,10 @@ body {
   padding-bottom: 100px;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   transition: all 0.5s;
-    cursor: pointer;
+  cursor: pointer;
 }
 
-#bloc1:hover {
-  -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
-  filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
-}
+#bloc1:hover {}
 
 #card1 {
   transition: all 0.5s;
@@ -102,8 +131,8 @@ body {
 }
 
 #bloc2:hover {
-  -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
-  filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+  -webkit-filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, .5));
+  filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, .5));
 }
 
 #c1 {
@@ -140,8 +169,8 @@ body {
 }
 
 #bloc3:hover {
-  -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
-  filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+  -webkit-filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, .5));
+  filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, .5));
 }
 
 
@@ -160,8 +189,8 @@ body {
 }
 
 #bloc4:hover {
-  -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
-  filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+  -webkit-filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, .5));
+  filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, .5));
 }
 
 .fi {
