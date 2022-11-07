@@ -12,24 +12,38 @@ body {
 }
 
 section {
-  position: relative;
+  /* position: relative; */
   height: 100vh;
   width: 100vw;
-  background: url(teste.jpg);
+  background-image: url(../img/banner.jpg);
+  /*height: 100vh;*/
+  min-height: 500px;
   background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
 }
+
+
 
 #tit {
   font-weight: bolder;
-  font-size: 48px;
-  color: rgb(0, 0, 0);
-  box-shadow: 10px 5px 5px black;
+  font-size: 54px;
+  color: rgb(255, 255, 255);
+  box-shadow: 5px 5px 5px black;
 
 }
 
 #tit2 {
   font-weight: bolder;
-  color: black;
+  color: rgb(255, 255, 255);
+  text-decoration: underline black;
+}
+
+
+#menu {
+  color: white;
+  font-weight: bolder;
 }
 
 
@@ -38,12 +52,12 @@ section {
   font-size: 38px;
   color: black;
   font-weight: bolder;
-  transition: all 0.5s;
+  transition: all 0.6s;
 }
 
-#font {
-  font-size: 24px;
-}
+
+
+
 
 .navbar-fixed-top {
   position: fixed !important;
@@ -52,13 +66,13 @@ section {
 }
 
 .navbar li {
-  font-size: 24px;
+  font-size: 28px;
   padding: 0 0 0 48px;
   color: white;
 }
 
-#menu a:focus {
-  color: brown;
+#menu a:active {
+  color: rgb(255, 4, 4);
 }
 
 .logo {
@@ -79,11 +93,9 @@ section {
 #bloc1 {
   padding-bottom: 100px;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  transition: all 0.5s;
-  cursor: pointer;
 }
 
-#bloc1:hover {}
+
 
 #card1 {
   transition: all 0.5s;
