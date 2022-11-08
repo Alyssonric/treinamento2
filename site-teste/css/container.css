@@ -71,7 +71,7 @@ section {
   color: white;
 }
 
-#menu a:active {
+#menu a:focus-within {
   color: rgb(255, 4, 4);
 }
 
@@ -138,14 +138,10 @@ section {
 #bloc2 {
   padding-bottom: 10px;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  transition: all 0.5s;
-  cursor: pointer;
+
 }
 
-#bloc2:hover {
-  -webkit-filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, .5));
-  filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, .5));
-}
+#bloc2:hover {}
 
 #c1 {
   height: 300px;
@@ -176,14 +172,9 @@ section {
 #bloc3 {
   padding-bottom: 10px;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  transition: all 0.5s;
-  cursor: pointer;
 }
 
-#bloc3:hover {
-  -webkit-filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, .5));
-  filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, .5));
-}
+#bloc3:hover {}
 
 
 .mod {
@@ -196,13 +187,121 @@ section {
 #bloc4 {
   padding-bottom: 10px;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  transition: all 0.5s;
-  cursor: pointer;
+
 }
 
-#bloc4:hover {
-  -webkit-filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, .5));
-  filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, .5));
+#bloc4:hover {}
+
+/*#posturas {
+
+  color: rgb(7, 7, 7);
+
+  text-decoration: none;
+  display: inline-block;
+  padding: 15px 20px;
+  position: relative;
+}
+
+#posturas:after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: rgb(196, 49, 49);
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+
+#posturas:hover:after {
+  width: 100%;
+  left: 0;
+}
+
+#obras {
+  color: rgb(7, 7, 7);
+  text-decoration: none;
+  display: inline-block;
+  padding: 15px 20px;
+  position: relative;
+}
+
+#obras:after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: rgb(248, 103, 6);
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+
+#obras:hover:after {
+  width: 100%;
+  left: 0;
+}
+
+#meio-ambiente {
+  color: rgb(7, 7, 7);
+  text-decoration: none;
+  display: inline-block;
+  padding: 15px 20px;
+  position: relative;
+}
+
+#meio-ambiente:after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: rgb(6, 223, 42);
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+
+#meio-ambiente:hover:after {
+  width: 100%;
+  left: 0;
+}
+
+
+#saude {
+  color: rgb(7, 7, 7);
+  text-decoration: none;
+  display: inline-block;
+  padding: 15px 20px;
+  position: relative;
+}
+
+#saude:after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: rgb(6, 20, 223);
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+
+#saude:hover:after {
+  width: 100%;
+  left: 0;
+}
+*/
+
+#card-color {
+
 }
 
 .fi {
