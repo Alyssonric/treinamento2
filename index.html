@@ -11,15 +11,25 @@
         integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="site-teste/js/bootstrap.bundle.min.js">
     <link rel="stylesheet" href="site-teste/js/bootstrap.min.js">
-    <script> src = "site-teste/js/scoll.js"</script>
-    <script> src = "site-teste/js/menu.js" </script>
+    <script>src = "site-teste/js/scoll.js"</script>
+    <link rel="stylesheet" href="assets/css/">
 
     <title>Fiscal Público</title>
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,600,700,800" rel="stylesheet">
+
+    <!-- Icons -->
+    <link href="assets/css/font-awesome.css" rel="stylesheet">
+    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+
+    <!-- Argon CSS -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link type="text/css" href="assets/css/argon-design-system.min.css" rel="stylesheet">
 </head>
 
 <body>
-
-    <header id="top">
+    <header id="top" class="header-1">
         <nav id="menu" class="navbar navbar-expand-lg fixed-top py-2 px-4">
             <div class="container-fluid">
                 <a href="#top"><img class="logo" src="site-teste/img/logo-oficial.png" alt="logo"></a>
@@ -33,28 +43,46 @@
                             <a class="nav-link text-light" aria-current="page" href="#solutions">Soluções</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-light"  aria-current="page" href="#fiscal">Fiscal</a>
+                            <a class="nav-link text-light" aria-current="page" href="#fiscal">Fiscal</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-light"  aria-current="page" href="#gestor">Gestor</a>
+                            <a class="nav-link text-light" aria-current="page" href="#gestor">Gestor</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-light"  aria-current="page" href="#modulos">Módulos</a>
+                            <a class="nav-link text-light" aria-current="page" href="#modulos">Módulos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-light"  aria-current="page" href="#contato">Contato</a>
+                            <a class="nav-link text-light" aria-current="page" href="#contato">Contato</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
-        <section id="container-img">
-            <div class="position-absolute top-50 start-50 translate-middle">
-                <h1 id="tit">Serviços para Fiscalizações</h1>
-                <h2 class="text-center" id="tit2">Softwares Especializados</h2>
-            </div>
-        </section>
 
+        <div class="page-header section section-hero section-shaped">
+            <div class="shape shape-style-1 shape-primary">
+
+                <img class="bg-image" src="site-teste/img/banner.jpg" style="width: 100%; ">
+                <!-- <video poster="video/studio.mp4" class="bg-image"
+                    style="padding: 0px; margin: 0px; width: 100%; height: 100vh; object-fit: cover;" autoplay muted loop>
+                    <source src="assets/img/pages/codigo.mp4" type="video/mp4">
+                </video> -->
+            </div>
+            <div class="page-header">
+                <div class="container shape-container d-flex align-items-center py-lg">
+                    <div class="col px-0">
+                        <div class="row align-items-center justify-content-center">
+                            <div class="col-lg-8 text-center">
+                                <div class="row">
+                                    <h1 class="display-3 mb-0 text-white">Inovação e gerenciamento para fiscalização
+                                        pública</h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </header>
 
 
@@ -63,14 +91,15 @@
             <h1 style="font-size: 55px;">Soluções</h1>
         </div>
         <div class="container">
-            <div class="row row-cols-1 row-cols-md-3 g-4">
-                <div class="col">
-                    <div id="card1" class=" h-100 text-center">
-                        <img id="c1" src="site-teste/img/solu1.jfif" class="rounded-circle" alt="...">
-                        <div class="card-body  mt-3">
-                            <h5 class="card-title">SOLUÇÃO 1</h5>
-                            <p class="card-text">FAZ ISSO,ISSO E ISSO
-                            </p>
+            <div class="row">
+                <div id="img1" class="col-lg-3">
+                    <div class="card card-blog card-background" data-animation="zooming">
+                        <div class="full-background"></div>
+                        <div class="card-body">
+                            <div class="content-bottom">
+                                <h6 class="card-category text-white opacity-8">Teste</h6>
+                                <h5 class="card-title">Teste</h5>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -102,7 +131,7 @@
 
     <div id="fiscal" class="fis container-fluid mb-4">
         <div id="bloc2" class="justify-content-start ms-4">
-            <h1  style="font-size: 50px;">Fiscal</h1>
+            <h1>Fiscal</h1>
         </div>
         <div class="row">
             <div class="col-3 ">
@@ -121,7 +150,7 @@
 
     <div id="gestor" class="ges container-fluid mb-4">
         <div id="bloc3" class="text-end me-4">
-            <h1 style="font-size: 50px;">Gestor</h1>
+            <h1>Gestor</h1>
         </div>
         <div class="row">
             <div class="col-8">
@@ -140,24 +169,26 @@
 
     <div id="modulos" class="container mod">
         <div id="bloc4" class="container-fluid text-center">
-            <h1 style="font-size: 50px;">Módulos</h1>
+            <h1>Módulos</h1>
         </div>
         <div class="row pt-5 mb-5 ">
             <div class="col-6 text-center mb-4 ">
-                <div  class="shadow p-3 mb-5 bg-body rounded ">
+                <div class="shadow p-3 mb-5 bg-body rounded ">
                     <h1 id="posturas">Posturas</h1>
                     <img class="img-fluid mt-3 " src="site-teste/img/mod-teste.png" alt="">
-                    <p class="mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur voluptates eveniet labore magnam
+                    <p class="mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur voluptates eveniet
+                        labore magnam
                         dolorum delectus impedit laboriosam officiis atque beatae, qui suscipit eaque quis nam magni,
                         voluptatibus deserunt fugit modi.
                     </p>
                 </div>
             </div>
             <div class="col-6 text-center mb-4 ">
-                <div  class="shadow p-3 mb-5 bg-body rounded">
+                <div class="shadow p-3 mb-5 bg-body rounded">
                     <h1 id="obras">Obras</h1>
-                    <img class="img-fluid mt-3" src="site-teste/img/mod-teste.png"  alt="">
-                    <p class="mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex a dignissimos quasi voluptates
+                    <img class="img-fluid mt-3" src="site-teste/img/mod-teste.png" alt="">
+                    <p class="mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex a dignissimos quasi
+                        voluptates
                         necessitatibus doloremque quos recusandae sed nostrum similique, eveniet nesciunt sit cum
                         aperiam
                         sequi impedit placeat. Eius, soluta?
@@ -166,10 +197,11 @@
             </div>
             <div id="div2" class="row pt-5 mb-5">
                 <div class="col-6 text-center mt-4 ">
-                    <div  class="shadow p-3 mb-5 bg-body rounded">
+                    <div class="shadow p-3 mb-5 bg-body rounded">
                         <h1 id="meio-ambiente">Meio Ambiente</h1>
                         <img class="img-fluid mt-3" src="site-teste/img/mod-teste.png" alt="">
-                        <p class="mt-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni enim quod molestiae vel
+                        <p class="mt-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni enim quod
+                            molestiae vel
                             laudantium! Fuga esse laudantium earum aliquid, impedit sapiente. Voluptatibus quam nisi
                             placeat, magnam accusamus voluptates id. Nesciunt!
                         </p>
@@ -195,68 +227,82 @@
 
 
     <footer class="mt-5">
-        <div class="border-top border-secondary border-1"></div>
+        <div class="border-top border-light border-1"></div>
         <div id="contato" class="footpri">
-            <div id="contato" class="my-auto " style="font-style: oblique; text-align: center; font-size: 40px;">
-                <p>Contato</p>
+            <div id="contato" class="my-auto text-center">
+                <h4 class="display-1">Contato</h4>
             </div>
             <div id="foot" class="row mx-20px me-20px">
-                <div class="col-4 text-center">
-                    <div class="d-inline">
-                        <p>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor"
-                                class="bi bi-envelope-fill" viewBox="0 0 16 16">
-                                <path
-                                    d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z" />
-                            </svg>
-                        </p>
-                        <div class="border-top border-secondary border-2 border-dark ms-4 justify-content-center pt-4 w-50"></div>
-                        <p>
-                            coesma@coesma.com.br
-                        </p>
-                    </div>
-                </div>
-                <div class="col-4 text-center">
-                    <div class="d-inline">
-                        <p>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor"
-                                class="bi bi-telephone-fill" viewBox="0 0 16 16">
-                                <path fill-rule="evenodd"
-                                    d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
-                            </svg>
-                        </p>
-                        <p>
-                            (14) 3454-5995
-                        </p>
-                    </div>
-                </div>
-                <div class="col-4 text-center">
-                    <div class="d-inline">
-                        <p class="me-5">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor"
-                                class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
-                                <path
-                                    d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" />
-                            </svg>
-                        </p>
-                        <p class="me-5">
-                            R. Egídio Elías Miguel, 136 - Aparecida Nasser, Marília - SP, 17524-450
-                        </p>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm text-lg-center">
+                            <div class="info info-hover">
+                                <div
+                                    class="icon icon-shape icon-shape-primary icon-lg shadow rounded-circle text-primary">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor"
+                                        class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                                        <path
+                                            d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" />
+                                    </svg>
+                                </div>
+                                <h4 class="info-title display-3">Email</h4>
+                                <p class="description px-0 display-4">
+                                    contato@fiscalpublico
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-sm text-center">
+                            <div class="info info-hover">
+                                <div
+                                    class="icon icon-shape icon-shape-primary icon-lg shadow rounded-circle text-primary">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor"
+                                        class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                                        <path
+                                            d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" />
+                                    </svg>
+                                </div>
+                                <h4 class="info-title display-3">Telefone</h4>
+                                <p class="description px-0 display-4">
+                                    (14) 3454-5995 || (14) 99754-5995
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-sm text-center">
+                            <div class="info info-hover">
+                                <div
+                                    class="icon icon-shape icon-shape-primary icon-lg shadow rounded-circle text-primary">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor"
+                                        class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                                        <path
+                                            d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" />
+                                    </svg>
+                                </div>
+                                <h4 class="info-title display-3">Endereço</h4>
+
+                                <p class="description px-0 display-4">
+                                    R. Egídio Elías Miguel, 136 - Aparecida Nasser, Marília - SP, 17524-450
+                                </p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
 
 
-        <div id="copy" class="text-center p-4" style="background-color:rgb(199, 243, 156);">
+        <div id="copy" class="text-center p-4 bg-secondary">
             © 2022 Copyright: Fiscal Público
-            <a class="text-reset fw-bold" href="https://www.coesma.com.br/">www.coesma.com.br</a>
+            <a class="text-reset fw-bold" href="https:www.fiscalpublico.com.br">https:www.fiscalpublico.com.br</a>
         </div>
 
     </footer>
 
     <script src="site-teste/js/scroll.js">
     </script>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+
+    <script src="assets/js/argon-design-system.js"></script>
 </body>
 
 </html>

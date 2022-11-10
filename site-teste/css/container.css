@@ -73,21 +73,28 @@ section {
   height: 100px;
 }
 
-.solu {
+
+#img1 {
+  background-image: url(../img/solu1.jfif);
+  background-repeat: no-repeat;
+  
+}
+
+/* .solu {
   background-color: white;
   margin-top: 0px;
   padding-top: 120px;
   padding-left: 20px;
   padding-right: 20px;
   padding-bottom: 40px;
-}
+} */
 
-#bloc1 {
+/* #bloc1 {
   padding-bottom: 100px;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
+} */
 
-#card1 {
+/* #card1 {
   transition: all 0.5s;
   cursor: pointer;
 }
@@ -95,9 +102,9 @@ section {
 #card1:hover {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
-}
+} */
 
-#card2 {
+/* #card2 {
   transition: all 0.5s;
   cursor: pointer;
 }
@@ -115,7 +122,7 @@ section {
 #card3:hover {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
-}
+} */
 
 
 .fis {
@@ -125,14 +132,14 @@ section {
   padding-bottom: 40px;
 }
 
-
+/* 
 #bloc2 {
   padding-bottom: 10px;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 
-}
+} */
 
-#c1 {
+/* #c1 {
   height: 300px;
   border-radius: 180px;
 }
@@ -147,7 +154,7 @@ section {
 #c3 {
   height: 300px;
   border-radius: 180px;
-}
+} */
 
 .ges {
   background-color: white;
@@ -157,10 +164,10 @@ section {
   padding-bottom: 40px;
 }
 
-#bloc3 {
+/* #bloc3 {
   padding-bottom: 10px;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
+} */
 
 
 .mod {
@@ -170,11 +177,11 @@ section {
   padding-bottom: 20px;
 }
 
-#bloc4 {
+/* #bloc4 {
   padding-bottom: 10px;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 
-}
+} */
 
 #posturas {
 
@@ -295,7 +302,7 @@ section {
 #contato {
   padding-bottom: 80px;
   margin-top: 50px;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
 }
 
 #copy {
