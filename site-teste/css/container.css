@@ -44,13 +44,16 @@ section {
   font-weight: bolder;
 }
 
-
 #menu.active {
   background-color: white;
   font-size: 38px;
   color: black;
   font-weight: bolder;
   transition: all 0.6s;
+}
+
+#menu a {
+  font-size: larger;
 }
 
 .navbar-fixed-top {
@@ -65,20 +68,20 @@ section {
   color: white;
 }
 
-#menu a:focus-within {
+/* #menu a:focus-within {
   color: rgb(255, 4, 4);
-}
+} */
 
 .logo {
   height: 100px;
 }
 
 
-#img1 {
+/* #img1 {
   background-image: url(../img/solu1.jfif);
   background-repeat: no-repeat;
   
-}
+} */
 
 /* .solu {
   background-color: white;
@@ -94,42 +97,22 @@ section {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 } */
 
-/* #card1 {
+#card1 {
   transition: all 0.5s;
   cursor: pointer;
 }
 
 #card1:hover {
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
-} */
-
-/* #card2 {
-  transition: all 0.5s;
-  cursor: pointer;
+  -webkit-transform: scale(1.0);
+  transform: scale(1.0);
 }
-
-#card2:hover {
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
-}
-
-#card3 {
-  transition: all 0.5s;
-  cursor: pointer;
-}
-
-#card3:hover {
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
-} */
 
 
 .fis {
   padding-top: 120px;
-  padding-left: 20px;
+  /* padding-left: 20px;
   padding-right: 20px;
-  padding-bottom: 40px;
+  padding-bottom: 40px; */
 }
 
 /* 
@@ -159,9 +142,22 @@ section {
 .ges {
   background-color: white;
   padding-top: 120px;
-  padding-left: 20px;
+  /* padding-left: 20px;
   padding-right: 20px;
-  padding-bottom: 40px;
+  padding-bottom: 40px; */
+}
+
+#fiscal {
+  background-color: whitesmoke;
+}
+
+
+#gestor {
+  background-color:whitesmoke;
+}
+
+#span {
+  color: black;
 }
 
 /* #bloc3 {
