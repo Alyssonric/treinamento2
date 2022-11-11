@@ -11,18 +11,20 @@ body {
   background-color: whitesmoke;
 }
 
-section {
+/* section {
   /* position: relative; */
-  height: 100vh;
-  width: 100vw;
-  background-image: url(../img/banner.jpg);
-  /*height: 100vh;*/
-  min-height: 500px;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-
+/* height: 100vh;
+  width: 100vw; */
+/* background-image: url(../img/banner.jpg); */
+/*height: 100vh;*/
+/* min-height: 500px; */
+/* background-size: cover; */
+/* background-position: center; */
+/* background-repeat: no-repeat;
 }
+  */
+
+
 
 #tit {
   font-weight: bolder;
@@ -153,7 +155,7 @@ section {
 
 
 #gestor {
-  background-color:whitesmoke;
+  background-color: whitesmoke;
 }
 
 #span {
