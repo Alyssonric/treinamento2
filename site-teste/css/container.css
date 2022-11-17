@@ -99,7 +99,7 @@ body {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 } */
 
-#card1 {
+/* #card1 {
   transition: all 0.5s;
   cursor: pointer;
 }
@@ -107,7 +107,7 @@ body {
 #card1:hover {
   -webkit-transform: scale(1.0);
   transform: scale(1.0);
-}
+} */
 
 
 .fis {
