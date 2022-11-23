@@ -1,10 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name = "description" content = "Site de divulgação do aplicativo Fiscal Público.">
+    <meta name="keywords" content="fiscalização, fiscal, postura">
+    <meta http-equiv="cache-control" content="no-cache">
+    <meta name="rating" content="general" />
     <link rel="stylesheet" href="site-teste/css/bootstrap.min.css">
     <link rel="stylesheet" href="site-teste/css/container.css">
     <script src="https://code.jquery.com/jquery-3.6.1.min.js"
@@ -26,6 +30,7 @@
     <!-- Argon CSS -->
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
     <link type="text/css" href="assets/css/argon-design-system.min.css" rel="stylesheet">
+    
 </head>
 
 <body>
@@ -33,10 +38,10 @@
 
         <nav id="menu" class="navbar navbar-expand-sm   fixed-top py-1 px-2">
 
-            <div class="container-fluid">
+            <div class="but1 container-fluid">
                 <a href="#top"><img class="logo navbar-brand" src="site-teste/img/logo-oficial.png" alt="logo"></a>
                 <!-- <div class="justify-content-center" id="navbarNav"> -->
-                <button id="but" class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                <button onclicle="menuShow()" id="but2" class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
                     aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"><img src="site-teste/img/menu-burger (3).png" /></span>
@@ -407,13 +412,14 @@
     <script src="assets/js/bootstrap.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="assets/js/argon-design-system.js"></script>
-    <script>$(".nav-button").click(function () {
+    <!-- <script>$(".nav-button").click(function () {
             $(".navbar-toggler,.navbar-nav").toggleClass("open");
         });
 
         $(".scroll-link").click(function () {
             $(".navbar-toggler,.navbar-nav").toggleClass("close");
-        });</script>
+        });</script> -->
+        <script> src="treinamento2/site-teste/js/collapse.js"</script>
 </body>
 
 </html>
