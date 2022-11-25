@@ -11,35 +11,6 @@ body {
   background-color: whitesmoke;
 }
 
-/* section {
-  /* position: relative; */
-/* height: 100vh;
-  width: 100vw; */
-/* background-image: url(../img/banner.jpg); */
-/*height: 100vh;*/
-/* min-height: 500px; */
-/* background-size: cover; */
-/* background-position: center; */
-/* background-repeat: no-repeat;
-}
-  */
-
-
-
-#tit {
-  font-weight: bolder;
-  font-size: 54px;
-  color: rgb(255, 255, 255);
-  box-shadow: 5px 5px 5px black;
-
-}
-
-#tit2 {
-  font-weight: bolder;
-  color: rgb(255, 255, 255);
-  text-decoration: underline black;
-}
-
 
 #menu {
   color: white;
@@ -70,103 +41,26 @@ body {
   color: white;
 }
 
-/* #menu a:focus-within {
-  color: rgb(255, 4, 4);
-} */
-
 .logo {
   height: 100px;
 }
 
-
-/* #img1 {
-  background-image: url(../img/solu1.jfif);
-  background-repeat: no-repeat;
-  
-} */
-
-/* .solu {
-  background-color: white;
-  margin-top: 0px;
-  padding-top: 120px;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-bottom: 40px;
-} */
-
-/* #bloc1 {
-  padding-bottom: 100px;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-} */
-
-/* #card1 {
-  transition: all 0.5s;
-  cursor: pointer;
-}
-
-#card1:hover {
-  -webkit-transform: scale(1.0);
-  transform: scale(1.0);
-} */
-
-
 .fis {
   padding-top: 120px;
-  /* padding-left: 20px;
-  padding-right: 20px;
-  padding-bottom: 40px; */
 }
-
-/* 
-#bloc2 {
-  padding-bottom: 10px;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-
-} */
-
-/* #c1 {
-  height: 300px;
-  border-radius: 180px;
-}
-
-
-#c2 {
-  height: 300px;
-  border-radius: 180px;
-}
-
-
-#c3 {
-  height: 300px;
-  border-radius: 180px;
-} */
 
 .ges {
   background-color: white;
   padding-top: 120px;
-  /* padding-left: 20px;
-  padding-right: 20px;
-  padding-bottom: 40px; */
 }
 
 #fiscal {
   background-color: whitesmoke;
 }
 
-
 #gestor {
   background-color: whitesmoke;
 }
-
-/* #span {
-  color: black;
-} */
-
-/* #bloc3 {
-  padding-bottom: 10px;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-} */
-
 
 .mod {
   padding-top: 120px;
@@ -174,12 +68,6 @@ body {
   padding-right: 20px;
   padding-bottom: 20px;
 }
-
-/* #bloc4 {
-  padding-bottom: 10px;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-
-} */
 
 #posturas {
 
@@ -288,11 +176,6 @@ body {
   left: 0;
 }
 
-/* .fi {
-  height: 300x;
-  width: 400px;
-}  */
-
 .footpri {
   margin-bottom: 0px;
 }
@@ -300,62 +183,13 @@ body {
 #contato {
   padding-bottom: 80px;
   margin-top: 50px;
-  /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+
 }
 
-/* #copy {
-  margin-top: 0px;
-} */
-
-/* @media screen and (max-width: 700px) {
-  .nav-bar {
-    padding: 1.5rem 4rem;
-    display: flex;
-
+/* @media screen and (max-width: 768px) {
+  .navbar ul {
+    visibility: hidden;
   }
 
-  
 
-  .nav-item {
-    display: none;
-  }
-
-  .login-button {
-    display: none;
-  }
-
-  .mobile-menu-icon {
-    display: block;
-  }
-
-  .mobile-menu-icon button {
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
-  }
-
-  .mobile-menu ul {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    padding-bottom: 1rem;
-  }
-
-  .mobile-menu .nav-item {
-    display: block;
-    padding-top: 1.2rem;
-  }
-
-  .mobile-menu .login-button {
-    display: block;
-    padding: 1rem 2rem;
-  }
-
-  .mobile-menu .login-button button {
-    width: 100%;
-  }
-
-  .open {
-    display: block;
-  }
 } */
